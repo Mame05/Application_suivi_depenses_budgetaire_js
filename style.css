@@ -40,7 +40,7 @@ button{
     color: #ffffff;
     font-size: 18px;
     margin-top: 20px;
-    box-shadow: none;
+    border: none; /* Supprime la bordure */
 }
 
 
