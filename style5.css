@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; 
+}
+
+.main-content {
+    position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */
+    background-color: #ffffff; /* Couleur de fond du contenu principal */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5px;
+    box-sizing: border-box; /* Inclure padding et border dans les dimensions totales */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centre le texte et les éléments inline */
+}
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px; /* Ajouter du padding pour éviter que les éléments soient collés aux bords */
+    background-color: #254969;
+    border-radius: 40px 40px 0 0;
+
+}
+.header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header.img{
+    max-width: 100px;
+    margin: 10px 20px 10px 0; /* Ajuster les marges pour le logo */
+}
+.header button{
+    flex: 1;
+    color: #fd503f;
+    font-size: 40px;
+    margin: 20px 0 10px 200px; /* Ajuster les marges pour le bouton */
+
+}
+.table-content{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0; /* Aligne la div enfant au bas de la div parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:none;
+    margin-bottom: 270px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #254969; 
+    /*margin-top: 10px;*/
+}
+ .fa-lg {
+    font-size: 1.5em;
+}
+.btn-light {
+    border: none;
+    color: #254969;
+    margin-right: 5px;
+}
+.entete{
+    background-color: #254969;
+    color: #ffffff;
+}
+
+.custom-input-group{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #fd503f;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+}
+
+.custom-input-group .input-group-text {
+    background-color: transparent;
+    border: none;
+}
+.filter{
+    margin-top: 24px;
+}
+.search{
+    color: #fd503f;
+}
