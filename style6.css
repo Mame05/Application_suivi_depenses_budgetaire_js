@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; 
+}
+
+.main-content {
+    position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */
+    background-color: #ffffff; /* Couleur de fond du contenu principal */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5px;
+    box-sizing: border-box; /* Inclure padding et border dans les dimensions totales */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centre le texte et les éléments inline */
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    margin-left: 10px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #fd503f;
+    text-decoration: none;
+}
+h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #254969; 
+    text-align: center;
+    /*margin-right: 30px;*/
+ }
+
+.container-card{
+    padding-top: 30px;
+}
+.card{
+    border: 1px solid #DDE1E4;
+    border-radius: 30px;
+}
+.card-body {
+    text-align: left;
+    padding: 15px;
+}
+
+.card-body p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.button1{
+    background-color: red;
+    color: #ffffff;
+    border: none;
+}
+.icon-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.icon-buttons a {
+    margin-left: 10px;
+}
+
+.btn-light {
+    border: none;
+    color: #254969;
+    margin-right: 5px;
+}
+.fa-lg {
+    font-size: 1.5em;
+}
+
+
