@@ -5,7 +5,7 @@ body {
     background-color: transparent; 
 }
 
-.main-content {
+.main-content1 {
     position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */
     background-color: #254969; /* Couleur de fond du contenu principal */
     border-radius: 40px;
@@ -21,7 +21,7 @@ body {
 
 
 }
-.image{
+.image1{
     flex: 1; /* Permet au contenu principal de prendre l'espace restant */
     margin-top: 20px;
     margin-left:10%;
@@ -58,7 +58,7 @@ form div input{
     background-color: #DDE1E4;
     border: none; /* Supprime la bordure */
 }
-button{
+button.button1{
     background-color: #fd503f;
     width: 329px;
     height: 55px;
@@ -69,9 +69,9 @@ button{
     margin-top: 30px;
     border: none; /* Supprime la bordure */
 }
-p{
+p.para{
     margin-top: 20px;
 }
-a{
+a.lien1{
     color:#fd503f
 }

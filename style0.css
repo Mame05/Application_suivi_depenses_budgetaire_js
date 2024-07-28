@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; 
+}
+
+.main-content0 {
+    background-color: #254969; /* Couleur de fond du contenu principal */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    color:white;
+    padding-top: 5px;
+    box-sizing: border-box; /* Inclure padding et border dans les dimensions totales */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centre le texte et les éléments inline */
+
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+.image0{
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Conserver les proportions de l'image */
+}
+p.para0 {
+    text-align: left;
+}
+button.button0{
+    background-color: #fd503f;
+    width: 329px;
+    height: 55px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none; /* Supprime la bordure */
+}
+
+

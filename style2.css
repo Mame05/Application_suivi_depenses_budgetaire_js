@@ -4,6 +4,12 @@ body {
     padding: 0;
     background-color: transparent; 
 }
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 
 .main-content {
     position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */

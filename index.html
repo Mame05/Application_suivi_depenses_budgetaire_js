@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="firebaseauth.js"></script>
+    <title>Suivi de dépenses</title>
+</head>
+<body>
+
+    <!-- Page de bienvenue --> 
+    <div id="welcome-page" class="main-content0">
+        <h1>Bienvenue dans <br>le panier</h1> 
+        <img src="images/Rectangle 39.png" alt="" class="image0">
+        <p class="para0">Le panier vous permet de planifier<br>des courses et de suivre les achats<br>lors de ces couses de manière<br>organiser.</p>
+        <button class="button0" onclick="showPage('signIn')">Commencer</button>
+    </div>
+
+     <!-- Page de connexion --> 
+    <div id="signIn" class="main-content1" style="display:none;">
+        <div class="image1">
+            <img src="images/Rectangle 55.png" alt="">
+        </div>
+        <div class="container-form">
+            <form action="" method="post">
+                <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email">
+                </div>
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" placeholder="Votre mot de passe">
+                </div>
+                <button class="button1" type="submit" id="submitSignIn">Se connecter</button>
+                <p class="para1">Vous n'avez pas encore de compte? <a class="lien1" href="javascript:void(0);" onclick="showPage('signup')">S'inscrire</a></p>
+            </form>
+        </div>        
+    </div>
+    <!-- Page inscription --> 
+    <div id="signup" class="main-content2" style="display:none;">
+        <div class="header2">
+            <div class="container2">
+                <img src="images/Rectangle 56.png" alt="" class="image2">
+                <p class="para2">Créer votre compte</p>
+            </div>
+        </div>
+        <div class="container-form">
+            <form action="" method="post">
+                <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="rnom" placeholder="Votre nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="rprenom" placeholder="Votre prénom"> 
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="remail" placeholder="Votre email">
+                </div>
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="rpassword" placeholder="Votre mot de passe">
+                </div>
+                <button class="button2" type="submit" id="submitSignUp">S'inscrire</button>
+            </form>
+        </div>        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

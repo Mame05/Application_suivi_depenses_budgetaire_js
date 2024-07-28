@@ -4,8 +4,8 @@ body {
     padding: 0;
     background-color: transparent; 
 }
-
-.main-content {
+  /*  Page Bienvenue */
+.main-content0 {
     background-color: #254969; /* Couleur de fond du contenu principal */
     border-radius: 40px;
     width: 100%;
@@ -24,14 +24,14 @@ h1{
     text-align: center;
     margin-top: 0;
 }
-.image{
+.image0{
     max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
     height: auto; /* Conserver les proportions de l'image */
 }
-p {
+p.para0 {
     text-align: left;
 }
-button{
+button.button0{
     background-color: #fd503f;
     width: 329px;
     height: 55px;
@@ -41,6 +41,171 @@ button{
     font-size: 18px;
     margin-top: 20px;
     border: none; /* Supprime la bordure */
+}
+
+  /* Page Connexion */
+.main-content1 {
+    position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */
+    background-color: #254969; /* Couleur de fond du contenu principal */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5px;
+    box-sizing: border-box; /* Inclure padding et border dans les dimensions totales */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centre le texte et les éléments inline */
+
+
+}
+.image1{
+    flex: 1; /* Permet au contenu principal de prendre l'espace restant */
+    margin-top: 20px;
+    margin-left:10%;
+}
+.container-form{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff;
+    border-radius: 40px;
+    bottom: 0; /* Aligne la div enfant au bas de la div parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form div{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 50%;
+
+}
+form div input{
+    width: 70%;
+    height: 8vh;
+    border-radius: 50px;
+    outline: none;
+    padding: 0 30px;
+    background-color: #DDE1E4;
+    border: none; /* Supprime la bordure */
+}
+button.button1{
+    background-color: #fd503f;
+    width: 329px;
+    height: 55px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 30px;
+    border: none; /* Supprime la bordure */
+}
+p.para1{
+    margin-top: 20px;
+}
+a.lien1{
+    color:#fd503f
+}
+
+   /*   Page d'Inscription  */
+
+   .main-content2 {
+    position: relative; /* Définit le conteneur comme relatif pour positionner l'enfant par rapport à lui */
+    background-color: #254969; /* Couleur de fond du contenu principal */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5px;
+    box-sizing: border-box; /* Inclure padding et border dans les dimensions totales */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centre le texte et les éléments inline */
+}
+.header2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container2{
+    display:flex;
+    align-items: center;
+}
+.image2{
+    max-width: 100px;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+p.para2{
+    flex: 1;
+    font-size: 18px; /* Ajustez la taille de la police selon vos besoins */
+    margin: 0;
+    color: #fd503f;
+    margin-top: 10px;
+}
+.container-form{
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    background-color: #ffffff;
+    border-radius: 40px;
+    bottom: 0; /* Aligne la div enfant au bas de la div parent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:none;
+}
+
+form div{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 50%;
+
+}
+form div input{
+    width: 70%;
+    height: 8vh;
+    border-radius: 50px;
+    outline: none;
+    padding: 0 30px;
+    background-color: #DDE1E4;
+    border: none; /* Supprime la bordure */
+}
+button.button2{
+    background-color: #fd503f;
+    width: 329px;
+    height: 55px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none; /* Supprime la bordure */
+}
+messageDiv{
+    background-color:hsl(327,90%,28%);
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius: 5px;
+    font-size:1rem;
+    opacity:0;
+    animation:fadeOut 7s forwards;
 }
 
 
